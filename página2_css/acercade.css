@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+#contenedor2 {
+    width: 1200px;
+    margin: auto;
+    padding: 50px 20px 20px 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #e6e6e6;
+    margin-top: 30px;
+}
+
+
+/* HEADER */
+.header{
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-areas: "imglogo menu";
+    background-color: #1c2541;
+    height: 150px;
+    align-items: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.imglogo {
+    grid-area: imglogo;
+    margin-left: 150px;
+}
+
+.logoitsc {
+    width: 90px;
+    height: auto;
+}
+
+.menu {
+    grid-area: menu;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-right: 150px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+    transition: color 0.3s ;
+}
+
+.link:hover{
+    color:#456990
+}
+
+
+/*PRIMER BLOQUE*/
+
+.titulocontenedor2 {
+    font-size: 24pt;
+}
+
+
+.pcontenedor2 {
+    text-align: justify;
+    margin: 20px 130px 20px 0px;
+    font-size: 12pt;
+    line-height: 21pt;
+
+}
+
+.textobanner {
+    color: #1C2541;
+    font-size: 32pt;
+    margin-top: 30px;
+}
+
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagn0 {
+    width: 500px;
+    height: auto;
+    margin: 10px 10px 40px 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+    
+}
+
+
+
+/*CONTENEDOR AREAS DE FORMACION*/
+.contenedorf {
+    width: 1000px;
+    display: flex;
+    gap: 20px 0px 0px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+
+.cajaf {
+    height: auto;
+    width: 230px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#e63946 ;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.cajaf- img{
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    display: flex;
+    object-fit: contain;
+
+}
+
+.cajaf img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.textorf {
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+    font-size: 11pt;
+}
+
+.textorf2 {
+    color: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #1c2541;
+    padding: 20px ;
+    font-size: 12px;
+    height: 70px;
+}
+
+.banner2 {
+    grid-area: banner;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 20px;
+}
+
+
+
+/*CONTENEDOR DE Competencias Técnicas*/
+.contenedor {
+    width: 1000px;
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    
+}
+
+
+.caja {
+    height: 190px;
+    width: 180px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    background-color:#e6e6e6 ;
+    padding: 30px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.caja :hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+}
+
+
+.caja img {
+    width: 50px;
+    height: auto;
+}
+
+
+.compbanner {
+    width: 1000px;
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-top: 50px;
+
+}
+
+.caja h3{
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.caja p{
+    font-size: 12pt;
+    text-align: center;
+
+}
+
+.textobannercomp {
+    color: #ffffff;
+    font-size: 32pt;
+    text-align: center;
+    
+}
+
+.banner3 {
+    width: 1200px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #456990;    
+}
+
+
+
+
+/*CONTENEDOR PROGRAMAS*/
+.contenedorp0 {
+    height: auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6e6e6;
+    text-align: center;
+}
+
+.contenedorp0 h1{margin: 40px 20px 10px 20px;
+
+}
+
+
+.contenedorp {
+    height: auto;
+    width: 1200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    background-color: #e6e6e6;
+}
+
+
+.contenedorp h3{
+    text-align: center;
+    margin-bottom: auto;
+   
+}
+
+
+.cajas {
+    height: 210px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+
+
+.cajas img {
+    width: 100px;
+    height: auto;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.cajas img:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+}
+
+.cajas h3{
+    text-align: center;
+
+}
+
+.cajas p{
+    padding: 10px 0px ;
+    font-size: 11pt;
+    text-align: center;
+
+}
+
+
+
+
+/*CONOCE A NUESTROS DOCENTES*/
+.contenedord {
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.textobannerdoc {
+    font-size: 28pt;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.cajad {
+    height: auto;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#1c2541 ;
+    overflow: hidden
+}
+
+.cajad img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.cajad img:hover {
+    transform: scale(1.04);
+    transition: transform 0.3s ease;
+}
+
+.cajad h4{
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0px 0px 0px;
+
+}
+
+.cajad p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 9pt;
+}
+
+
+/* FOOTER */
+.footer{
+    background-color: #e63946 ;
+    height: 250px;
+    margin-top: 80px;
+}
+
+.footer_contenido{
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.menu_footer{
+    display: grid;
+    row-gap: 20px;
+}
+
+.menu_footer a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s 
+}
+
+.menu_footer a:hover {
+    color: #1C2541;
+}
+
+.contacto_footer {
+    color: white;
+    display: grid;
+    row-gap: 30px;
+}
+
+.redes_footer ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 15px;
+    justify-content: center
+}
+
+.redes_footer img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 90px;
+}
+
+.redes_footer a{
+    display: inline-block;
+    transition: transform .3s ease;
+}
+
+.redes_footer a:hover{
+    transform: translateY(-5px) scale(1);
+}
+
+/* COPYRIGHT */
+.copyright {
+    background-color: #1c2541;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p{
+    color: white;
+    font-size: 12px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}

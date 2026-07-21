@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*Contenedor de contacto*/
+.contacto1 {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto 60px auto;
+    padding: 50px;
+    background-color: #e6e6e6;
+
+}
+
+.contacto1 img{ 
+    width: 60px;
+    height: auto;
+    margin: 10px;
+}
+
+.contacto1 img:hover {
+    transform: scale(1.09);
+    transition: transform 0.3s ease;
+}
+
+.contacto1 p{
+    font-size: 18pt;
+    margin-top: 10px;
+    justify-content: center; 
+    text-align: center;
+}
+
+
+/*Contenedor de mensaje*/
+.mensaje {
+    width: 67%;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto 0% auto;
+    padding: 50px 100px 50px 100px;
+    background-color: #456990;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.contacto{
+    width: 80%;
+    margin:auto;
+    background:#4E7097;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+form{
+    width:100%;
+}
+
+.fila{
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+}
+
+.grupo{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    margin-bottom:20px;
+}
+
+label{
+    color:white;
+    font-size: 25px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:18px;
+    border-radius:10px;
+    border:2px solid #ddd;
+    font-size:15px;
+    font-family:inherit;
+    box-sizing:border-box;
+}
+
+textarea{
+    resize:none;
+    height:220px;
+}
+
+button{
+    background-color: #5F7FA7;
+    color: white;
+    text-decoration: none;
+    padding: 16px 50px;
+    border-radius: 35px;
+    font-size: 16pt;
+    transition: all 0.5s;
+    border:none;
+    padding-top: 20px;
+
+}
+
+button:hover{
+    background:#c92a38;
+}
+
+
+
+
+
+
+/*Contenedor Informacion de contacto*/
+.informacion {
+    width: 84%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto auto auto;
+    padding: 20px 0px 0px 0px;
+
+}
+
+.informacion p {
+    font-size: 45px;
+    padding: 0px 20px 20px 20px ;
+}
+
+
+.informacion0{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+    background-color: #e6e6e6;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.informacion1{
+    width: 65%;
+    height: 100px;
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    align-items: flex-start;
+
+}
+
+
+.informacion1 img{
+    width: 70px;
+    height: auto;
+    padding: 10px;
+}
+
+.informacion1 img:hover {
+    transform: scale(1.09);
+    transition: transform 0.3s ease;
+}
+
+.informacion1 p{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+/*Contenedor de Dirección*/
+.direcc {
+    width: 84%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto 60px auto;
+    padding: 10px 0px 0px 0px;
+    background-color: #e63946;
+    border-radius: 20px 20px 0 0 ;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.direcc h2 {
+    color: #ffffff;
+    text-align: center; 
+    font-size: 45px;
+    padding: 20px;
+}
+
+.direcc iframe {
+    width: auto;
+    left: auto;
+}
+
+
+
+
+
+
+/*Contenedor requisitos */
+
+.requi {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto 0px auto;
+    padding: 80px 150px 80px 150px;
+    background-color: #e6e6e6;
+
+}
+
+.requi h1{
+    font-size: 40px;
+    justify-content: center; 
+    text-align: center;
+    padding: 20px;
+}
+
+.requi p{
+    font-size: 25px;
+    justify-content: center; 
+    text-align: center;
+}
+
+.boton_aqui {
+    background-color: #5F7FA7;
+    color: white;
+    text-decoration: none;
+    padding: 16px 50px;
+    border-radius: 35px;
+    font-size: 16pt;
+    transition: all 0.5s;
+    margin-top: 30px;
+}
+
+.boton_aqui:hover {
+    background-color:#e63946;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER */
+.header{
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-areas: "imglogo menu";
+    background-color: #1c2541;
+    height: 150px;
+    align-items: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.imglogo {
+    grid-area: imglogo;
+    margin-left: 150px;
+}
+
+.logoitsc {
+    width: 90px;
+    height: auto;
+}
+
+.menu {
+    grid-area: menu;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-right: 150px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+    transition: color 0.3s ;
+}
+
+.link:hover{
+    color:#456990
+}
+
+
+
+/* BANNER */
+.banner {
+    grid-area: banner;
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.textobanner {
+    color: #1C2541;
+    font-size: 32pt;
+}
+
+
+
+
+/* FOOTER */
+.footer{
+    background-color: #e63946 ;
+    height: 250px;
+    margin-top: 0px;
+}
+
+.footer_contenido{
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.menu_footer{
+    display: grid;
+    row-gap: 20px;
+}
+
+.menu_footer a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s 
+}
+
+.menu_footer a:hover {
+    color: #1C2541;
+}
+
+.contacto_footer {
+    color: white;
+    display: grid;
+    row-gap: 20px;
+}
+
+.redes_footer ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 15px;
+    justify-content: center
+}
+
+.redes_footer img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 90px;
+}
+
+.redes_footer a{
+    display: inline-block;
+    transition: transform .3s ease;
+}
+
+.redes_footer a:hover{
+    transform: translateY(-5px) scale(1);
+}
+
+/* COPYRIGHT */
+.copyright {
+    background-color: #1c2541;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p{
+    color: white;
+    font-size: 12px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
